@@ -9,7 +9,7 @@ import {
   localStorageManager,
 } from '@chakra-ui/react'
 
-export interface CCProviderProps extends PropsWithChildren<unknown> {
+export interface JPBProviderProps extends PropsWithChildren<unknown> {
   cookies?: string | unknown
   useCssReset?: boolean
   useGlobalStyle?: boolean
@@ -37,12 +37,12 @@ export const NextFontHead = () => (
 )
 
 /** Wrapper to allow usage of the components within this library */
-export const CCProvider = ({
+export const JPBProvider = ({
   cookies,
   useCssReset = true,
   useGlobalStyle = true,
   children,
-}: CCProviderProps) => {
+}: JPBProviderProps) => {
   const colorModeManager =
     typeof cookies === 'string'
       ? cookieStorageManager(cookies)

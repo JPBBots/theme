@@ -46,7 +46,7 @@ export const SliderStyle: ComponentStyleConfig = {
     filledTrack: {
       width: 'inherit',
       height: 'inherit',
-      bg: 'brand.100',
+      bg: 'jpb.100',
     },
   },
 }

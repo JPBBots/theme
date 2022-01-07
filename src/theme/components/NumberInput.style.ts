@@ -60,7 +60,7 @@ export const NumberInputStyle: ComponentStyleConfig = {
         },
         _focus: {
           bg: 'lighter.5',
-          borderColor: 'brand.100',
+          borderColor: 'jpb.100',
         },
       },
     },

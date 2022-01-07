@@ -29,7 +29,7 @@ export const SwitchStyle: ComponentStyleConfig = {
         cursor: 'not-allowed',
       },
       _checked: {
-        bg: 'brand.100',
+        bg: 'jpb.100',
         _focus: {
           boxShadow: 'anti-outline',
         },

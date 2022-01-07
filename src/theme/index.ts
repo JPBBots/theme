@@ -14,6 +14,7 @@ import { TextareaStyle as Textarea } from './components/Textarea.style'
 import { NumberInputStyle as NumberInput } from './components/NumberInput.style'
 import { SliderStyle as Slider } from './components/Slider.style'
 import { AlertStyle as Alert } from './components/Alert.style'
+import { DividerStyle as Divider } from './components/Divider.style'
 
 export const DEFAULT_COLOR_MODE = 'dark'
 
@@ -51,7 +52,7 @@ const sizing = {
 
 const theme: ThemeOverride<ChakraTheme> = {
   config: {
-    cssVarPrefix: 'ccvars',
+    cssVarPrefix: 'jpbvars',
     initialColorMode: DEFAULT_COLOR_MODE,
     useSystemColorMode: false,
   },
@@ -76,7 +77,7 @@ const theme: ThemeOverride<ChakraTheme> = {
           h: 'scrollbar',
         },
         '&::-webkit-scrollbar-thumb': {
-          bg: 'brand.100',
+          bg: 'jpb.100',
         },
       },
       '#__next': baseFillStyle,
@@ -102,14 +103,7 @@ const theme: ThemeOverride<ChakraTheme> = {
   components: {
     Icon: { baseStyle: { color: 'inherit' } },
     Text: { baseStyle: { color: 'lighter.80', textStyle: 'default' } },
-    Divider: {
-      baseStyle: {
-        bg: 'transparent',
-        borderWidth: '1px',
-        borderStyle: 'solid',
-        borderColor: 'currentColor',
-      },
-    },
+    Divider,
     Tag,
     Menu,
     Input,

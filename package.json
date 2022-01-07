@@ -1,8 +1,12 @@
 {
-  "name": "@jpbbots/censorbot-components",
-  "description": "censorbot-components is a component library built on top of the Chakra UI theming library.",
+  "name": "@jpbbots/theme",
+  "description": "JPBBots Chakra-UI theme",
   "version": "3.3.0",
-  "author": "Xyoyu <ken@slinky.link>",
+  "author": "JPBBots",
+  "contributors": [
+    "JPBBerry <jb@bit.kiwi>",
+    "Xyoyu <ken@slinky.link>"
+  ],
   "license": "MIT",
   "scripts": {
     "test": "jest",
@@ -31,7 +35,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JPBBots/censorbot-components.git"
+    "url": "https://github.com/JPBBots/theme.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -55,6 +59,7 @@
     "@storybook/addon-links": "^6.3.2",
     "@storybook/addons": "^6.3.2",
     "@storybook/cli": "^6.3.2",
+    "@storybook/core": "^6.4.9",
     "@storybook/react": "^6.3.5",
     "@storybook/theming": "^6.3.5",
     "@testing-library/jest-dom": "^5.14.1",

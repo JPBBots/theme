@@ -1,5 +1,4 @@
 import { create } from '@storybook/theming'
-import brandImage from './components-logo.png'
 
 export default create({
   base: 'dark',
@@ -32,7 +31,6 @@ export default create({
   inputTextColor: '#f44646',
   inputBorderRadius: 5,
 
-  brandTitle: 'Censor Bot Storybook',
-  brandUrl: 'https://censor.bot/',
-  brandImage,
+  brandTitle: 'JPBBots Storybook',
+  brandUrl: 'https://jpbbots.org/'
 });

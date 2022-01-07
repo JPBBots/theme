@@ -31,12 +31,12 @@ export const ButtonStyle: ComponentStyleConfig = {
       },
     },
     primary: {
-      bg: 'brand.20',
+      bg: 'jpb.20',
       _hover: {
-        bg: 'brand.80',
+        bg: 'jpb.80',
       },
       _active: {
-        bg: 'brand.100',
+        bg: 'jpb.100',
       },
       _focus: {
         boxShadow: 'anti-outline',

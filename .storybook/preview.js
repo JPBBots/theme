@@ -1,6 +1,6 @@
 import theme from '../src/theme/index.ts'
 import { CSSReset, ChakraProvider } from '@chakra-ui/react'
-import { CCProvider } from "../src/utils/CCProvider/CCProvider";
+import { JPBProvider } from "../src/utils/JPBProvider/JPBProvider";
 
 
 export const parameters = {
@@ -15,9 +15,9 @@ export const parameters = {
 
 const withChakra = (Story) =>
   (
-    <CCProvider>
+    <JPBProvider>
       <Story />
-    </CCProvider>
+    </JPBProvider>
   )
 
 

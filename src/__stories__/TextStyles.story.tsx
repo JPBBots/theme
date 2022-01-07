@@ -14,6 +14,6 @@ export const _Text = () => (
     <Text textStyle="label.md">Label Medium</Text>
     <Text textStyle="heading.sm">Heading Small</Text>
     <Text textStyle="heading.lg">Heading Large</Text>
-    <Text textStyle="heading.xl">CensorBot Heading</Text>
+    <Text textStyle="heading.xl">JPBBots Heading</Text>
   </VStack>
 )

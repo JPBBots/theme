@@ -1,13 +1,9 @@
 import { render } from '@testing-library/react'
-import {
-  CCProvider,
-  NextFontHead,
-  NextColorModeScript,
-} from '@/utils/CCProvider/CCProvider'
+import { JPBProvider, NextFontHead, NextColorModeScript } from './JPBProvider'
 
-describe('CCProvider', () => {
+describe('JPBProvider', () => {
   it('should render', () => {
-    render(<CCProvider />)
+    render(<JPBProvider />)
   })
 })
 
