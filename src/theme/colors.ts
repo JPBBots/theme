@@ -1,6 +1,6 @@
 import { hex, Color } from 'chroma-js'
 
-const brand = hex('#a82510')
+const brand = hex('#ea5454')
 
 const createColor = (color: Color) => {
   return {
@@ -21,6 +21,5 @@ export const colors = {
   outline: brand.hex(),
   lighter: createColor(hex('#ffffff')),
   darker: createColor(hex('#000000')),
-  jpb: createColor(brand),
-  cb: createColor(hex('#ea5454')),
+  brand: createColor(brand),
 }

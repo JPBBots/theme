@@ -53,7 +53,7 @@ export const InputStyle: ComponentStyleConfig = {
         },
         _focus: {
           bg: 'lighter.5',
-          borderColor: 'jpb.100',
+          borderColor: 'brand.100',
         },
       },
       addon: {

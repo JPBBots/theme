@@ -10,7 +10,7 @@ export const PopoverStyle: ComponentStyleConfig = {
       minW: '320px',
       color: 'lighter.60',
       borderWidth: '2px',
-      borderColor: 'jpb.100',
+      borderColor: 'brand.100',
       borderTopWidth: 0,
       borderTopRadius: 0,
       borderBottomRadius: 'md',

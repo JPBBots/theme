@@ -77,7 +77,7 @@ const theme: ThemeOverride<ChakraTheme> = {
           h: 'scrollbar',
         },
         '&::-webkit-scrollbar-thumb': {
-          bg: 'jpb.100',
+          bg: 'brand.100',
         },
       },
       '#__next': baseFillStyle,
