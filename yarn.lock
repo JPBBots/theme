@@ -3235,15 +3235,15 @@
     ts-dedent "^2.0.0"
 
 "@storybook/addon-links@^6.3.2":
-  version "6.3.5"
-  resolved "https://registry.npmjs.org/@storybook/addon-links/-/addon-links-6.3.5.tgz"
-  integrity sha512-nWSVjYUrsNifUfs0mreh9oQJGUmvJwn/71WD50iTsb6tnoJ4yk7423seEFrYbMp6VQ0qg+d0B4NAAUJ320iZWg==
+  version "6.4.9"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.4.9.tgz#2d0a7f813dcef160feb357f6548bb1a7ba425d7d"
+  integrity sha512-xXFz/bmw67u4+zPVqJdiJkCtGrO2wAhcsLc4QSTc2+Xgkvkk7ulcRguiujAy5bfinhPa6U1vpJrrg5GFGV+trA==
   dependencies:
-    "@storybook/addons" "6.3.5"
-    "@storybook/client-logger" "6.3.5"
-    "@storybook/core-events" "6.3.5"
-    "@storybook/csf" "0.0.1"
-    "@storybook/router" "6.3.5"
+    "@storybook/addons" "6.4.9"
+    "@storybook/client-logger" "6.4.9"
+    "@storybook/core-events" "6.4.9"
+    "@storybook/csf" "0.0.2--canary.87bc651.0"
+    "@storybook/router" "6.4.9"
     "@types/qs" "^6.9.5"
     core-js "^3.8.2"
     global "^4.4.0"
@@ -3302,7 +3302,7 @@
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
 
-"@storybook/addons@6.3.6", "@storybook/addons@^6.3.0", "@storybook/addons@^6.3.2":
+"@storybook/addons@6.3.6":
   version "6.3.6"
   resolved "https://registry.npmjs.org/@storybook/addons/-/addons-6.3.6.tgz"
   integrity sha512-tVV0vqaEEN9Md4bgScwfrnZYkN8iKZarpkIOFheLev+PHjSp8lgWMK5SNWDlbBYqfQfzrz9xbs+F07bMjfx9jQ==
@@ -3317,7 +3317,7 @@
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
 
-"@storybook/addons@6.4.9":
+"@storybook/addons@6.4.9", "@storybook/addons@^6.3.0", "@storybook/addons@^6.3.2":
   version "6.4.9"
   resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-6.4.9.tgz#43b5dabf6781d863fcec0a0b293c236b4d5d4433"
   integrity sha512-y+oiN2zd+pbRWwkf6aQj4tPDFn+rQkrv7fiVoMxsYub+kKyZ3CNOuTSJH+A1A+eBL6DmzocChUyO6jvZFuh6Dg==
@@ -4195,14 +4195,14 @@
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/core-events@6.3.6", "@storybook/core-events@^6.3.0":
+"@storybook/core-events@6.3.6":
   version "6.3.6"
   resolved "https://registry.npmjs.org/@storybook/core-events/-/core-events-6.3.6.tgz"
   integrity sha512-Ut1dz96bJ939oSn5t1ckPXd3WcFejK96Sb3+R/z23vEHUWGBFtygGyw8r/SX/WNDVzGmQU8c+mzJJTZwCBJz8A==
   dependencies:
     core-js "^3.8.2"
 
-"@storybook/core-events@6.4.9":
+"@storybook/core-events@6.4.9", "@storybook/core-events@^6.3.0":
   version "6.4.9"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-6.4.9.tgz#7febedb8d263fbd6e4a69badbfcdce0101e6f782"
   integrity sha512-YhU2zJr6wzvh5naYYuy/0UKNJ/SaXu73sIr0Tx60ur3bL08XkRg7eZ9vBhNBTlAa35oZqI0iiGCh0ljiX7yEVQ==
