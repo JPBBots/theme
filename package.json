@@ -1,0 +1,93 @@
+{
+  "name": "@jpbbots/theme",
+  "description": "JPBBots Chakra-UI theme",
+  "version": "3.3.0",
+  "author": "JPBBots",
+  "contributors": [
+    "JPBBerry <jb@bit.kiwi>",
+    "Xyoyu <ken@slinky.link>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:esm": "tsc -p tsconfig.esm.json && tscpaths -p tsconfig.esm.json -s src -o lib/esm",
+    "build:cjs": "tsc -p tsconfig.cjs.json && tscpaths -p tsconfig.cjs.json -s src -o lib/cjs",
+    "storybook": "start-storybook -p 6006 --no-manager-cache",
+    "storybook:cache": "start-storybook -p 6006",
+    "build:storybook": "build-storybook",
+    "theme:types": "chakra-cli tokens ./lib/cjs/theme/index.js",
+    "postbuild": "npm run theme:types",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "prettier": "prettier --write src/**/*.*"
+  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "exports": {
+    "require": "./lib/cjs/index.js",
+    "import": "./lib/esm/index.js"
+  },
+  "files": [
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JPBBots/theme.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.4",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "chroma-js": "^2.1.2",
+    "framer-motion": "^4.1.17",
+    "react-icons": "^4.2.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@chakra-ui/cli": "^1.5.0",
+    "@storybook/addon-actions": "^6.3.2",
+    "@storybook/addon-essentials": "^6.3.2",
+    "@storybook/addon-links": "^6.3.2",
+    "@storybook/addons": "^6.3.2",
+    "@storybook/cli": "^6.3.2",
+    "@storybook/core": "^6.4.9",
+    "@storybook/react": "^6.3.5",
+    "@storybook/theming": "^6.3.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/chroma-js": "^2.1.3",
+    "@types/jest": "^26.0.24",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.28.4",
+    "@typescript-eslint/parser": "^4.21.0",
+    "conventional-changelog-conventionalcommits": "^4.6.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "fork-ts-checker-webpack-plugin": "^6.2.12",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-jest": "^27.0.4",
+    "tsconfig-paths": "^3.10.1",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "tscpaths": "^0.0.9",
+    "typescript": "^4.3.5"
+  }
+}
