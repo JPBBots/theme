@@ -3715,16 +3715,18 @@
     util-deprecate "^1.0.2"
 
 "@storybook/cli@^6.3.2":
-  version "6.3.2"
-  resolved "https://registry.npmjs.org/@storybook/cli/-/cli-6.3.2.tgz"
-  integrity sha512-qVFvrp8kQ6L0bowGjcDyUVoJVW5zkKiuYINr+0IXFyVo79uKFA9RhYExQl/dZwQqEDjXblTi+PBt/ik7RGw1Ag==
+  version "6.4.9"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.4.9.tgz#b3648f73ecf26e2d932886ae3bf12873aca304cd"
+  integrity sha512-XqNvrRk13XNHYxodtMiF6ZfBGg8aFGapKnWrZ+JCZYOgFuqIVQuSudLfvXXqyG/T+SK7y+Z2uU505BBmOaMWxw==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
-    "@storybook/codemod" "6.3.2"
-    "@storybook/node-logger" "6.3.2"
+    "@storybook/codemod" "6.4.9"
+    "@storybook/core-common" "6.4.9"
+    "@storybook/csf-tools" "6.4.9"
+    "@storybook/node-logger" "6.4.9"
     "@storybook/semver" "^7.3.2"
-    boxen "^4.2.0"
+    boxen "^5.1.2"
     chalk "^4.1.0"
     commander "^6.2.1"
     core-js "^3.8.2"
@@ -3844,22 +3846,22 @@
     core-js "^3.8.2"
     global "^4.4.0"
 
-"@storybook/codemod@6.3.2":
-  version "6.3.2"
-  resolved "https://registry.npmjs.org/@storybook/codemod/-/codemod-6.3.2.tgz"
-  integrity sha512-qNw6q1uXuDl3WLE3pNZaxF7VW7ewjZHy6KkOXBVT0bkKBGCeNSJjLnh3BAtyPmr5nyt8mW6TC2c198G6x8Vg3g==
+"@storybook/codemod@6.4.9":
+  version "6.4.9"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.4.9.tgz#1d5977dc80a8dcef28411d2772757edb715e7789"
+  integrity sha512-XqEKwQCVuGs4uFHhIJ6211ek79pCoJSjBuy0gLy8el2jEcwqtAbQfGslGp/2DvnyTGhDO7WDsZYqVjxOOnLWFw==
   dependencies:
     "@babel/types" "^7.12.11"
     "@mdx-js/mdx" "^1.6.22"
-    "@storybook/csf" "0.0.1"
-    "@storybook/csf-tools" "6.3.2"
-    "@storybook/node-logger" "6.3.2"
+    "@storybook/csf" "0.0.2--canary.87bc651.0"
+    "@storybook/csf-tools" "6.4.9"
+    "@storybook/node-logger" "6.4.9"
     core-js "^3.8.2"
     cross-spawn "^7.0.3"
     globby "^11.0.2"
     jscodeshift "^0.7.0"
-    lodash "^4.17.20"
-    prettier "~2.2.1"
+    lodash "^4.17.21"
+    prettier "^2.2.1"
     recast "^0.19.0"
     regenerator-runtime "^0.13.7"
 
@@ -4359,26 +4361,6 @@
     "@storybook/core-client" "6.4.9"
     "@storybook/core-server" "6.4.9"
 
-"@storybook/csf-tools@6.3.2":
-  version "6.3.2"
-  resolved "https://registry.npmjs.org/@storybook/csf-tools/-/csf-tools-6.3.2.tgz"
-  integrity sha512-CGj4HsKwYBwp2zWmrG1RJedwrnakfxkptp/4HQ0mE9ajw28GndNZus2+IgnBsxdbzv8LYwz/rHpXRbvfDbgPFg==
-  dependencies:
-    "@babel/generator" "^7.12.11"
-    "@babel/parser" "^7.12.11"
-    "@babel/plugin-transform-react-jsx" "^7.12.12"
-    "@babel/preset-env" "^7.12.11"
-    "@babel/traverse" "^7.12.11"
-    "@babel/types" "^7.12.11"
-    "@mdx-js/mdx" "^1.6.22"
-    "@storybook/csf" "^0.0.1"
-    core-js "^3.8.2"
-    fs-extra "^9.0.1"
-    js-string-escape "^1.0.1"
-    lodash "^4.17.20"
-    prettier "~2.2.1"
-    regenerator-runtime "^0.13.7"
-
 "@storybook/csf-tools@6.3.5":
   version "6.3.5"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.3.5.tgz#a396257323f32ea5968bfcfbccc0a6214f107694"
@@ -4583,17 +4565,6 @@
     webpack "4"
     webpack-dev-middleware "^3.7.3"
     webpack-virtual-modules "^0.2.2"
-
-"@storybook/node-logger@6.3.2":
-  version "6.3.2"
-  resolved "https://registry.npmjs.org/@storybook/node-logger/-/node-logger-6.3.2.tgz"
-  integrity sha512-TJvJpysIIP3EWoyfFDmXCRC/yTReu0jIFUPdldh4FjhADjQU+JTbLwJmtcJyHoMSqfIHgUc1TB6D/B4PjYqElA==
-  dependencies:
-    "@types/npmlog" "^4.1.2"
-    chalk "^4.1.0"
-    core-js "^3.8.2"
-    npmlog "^4.1.2"
-    pretty-hrtime "^1.0.3"
 
 "@storybook/node-logger@6.3.5":
   version "6.3.5"
@@ -6479,21 +6450,7 @@ boxen@^4.2.0:
     type-fest "^0.8.1"
     widest-line "^3.1.0"
 
-boxen@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/boxen/-/boxen-5.0.1.tgz"
-  integrity sha512-49VBlw+PrWEF51aCmy7QIteYPIFZxSpvqBdP/2itCPPlJ49kj9zg/XPRFrdkne2W+CfwXUls8exMvu1RysZpKA==
-  dependencies:
-    ansi-align "^3.0.0"
-    camelcase "^6.2.0"
-    chalk "^4.1.0"
-    cli-boxes "^2.2.1"
-    string-width "^4.2.0"
-    type-fest "^0.20.2"
-    widest-line "^3.1.0"
-    wrap-ansi "^7.0.0"
-
-boxen@^5.1.2:
+boxen@^5.0.0, boxen@^5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-5.1.2.tgz#788cb686fc83c1f486dfa8a40c68fc2b831d2b50"
   integrity sha512-9gYgQKXx+1nP8mP7CzFyaUARhg7D3n1dF/FnErWmu9l6JvGpNUN278h0aSb+QjoiKSWG+iZ3uHrcqk0qrY9RQQ==
@@ -6890,15 +6847,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.0.0, chalk@^4.1.0:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.1.tgz"
-  integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
-chalk@^4.1.1:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
   version "4.1.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-4.1.2.tgz"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
