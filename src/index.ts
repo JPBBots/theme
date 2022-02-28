@@ -7,6 +7,7 @@ export * from '@/theme/breakpoints'
 export * from '@/utils/PageWrapper/PageWrapper'
 
 export * from '@/views/Help'
+export * from '@/views/MiddleWrap'
 
 export * from '@/hooks/useScreenWidth'
 
