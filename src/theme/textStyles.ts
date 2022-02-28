@@ -32,4 +32,4 @@ export const textStyles = {
       fontWeight: '700',
     },
   },
-}
+} as const

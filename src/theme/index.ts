@@ -3,6 +3,8 @@ import { ChakraTheme, ThemeOverride } from '@chakra-ui/react'
 // These imports need to be local for theme type generation
 import { colors } from './colors'
 import { textStyles } from './textStyles'
+import { breakpoints } from './breakpoints'
+
 import { TagStyle as Tag } from './components/Tag.style'
 import { MenuStyle as Menu } from './components/Menu.style'
 import { InputStyle as Input } from './components/Input.style'
@@ -90,6 +92,7 @@ const theme: ThemeOverride<ChakraTheme> = {
       "'Inter',-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji",
     mono: "'Jetbrains Mono', monospace",
   },
+  breakpoints,
   colors,
   textStyles,
   sizes: sizing,
