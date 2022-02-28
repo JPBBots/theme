@@ -15,6 +15,7 @@ import { NumberInputStyle as NumberInput } from './components/NumberInput.style'
 import { SliderStyle as Slider } from './components/Slider.style'
 import { AlertStyle as Alert } from './components/Alert.style'
 import { DividerStyle as Divider } from './components/Divider.style'
+import { SpinnerStyle as Spinner } from './components/Spinner.style'
 
 export const DEFAULT_COLOR_MODE = 'dark'
 
@@ -115,6 +116,7 @@ const theme: ThemeOverride<ChakraTheme> = {
     NumberInput,
     Slider,
     Alert,
+    Spinner,
   },
 }
 
