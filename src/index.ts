@@ -6,6 +6,8 @@ export * from '@/theme/breakpoints'
 
 export * from '@/utils/PageWrapper/PageWrapper'
 
+export * from '@/views/Help'
+
 export * from '@/hooks/useScreenWidth'
 
 export default JPBProvider
