@@ -1,5 +1,5 @@
 import { Meta } from '@storybook/react'
-import { VStack, Text, HStack, Button } from '@chakra-ui/react'
+import { VStack, Text, HStack, Button, Box } from '@chakra-ui/react'
 
 export default {
   title: 'Button',
@@ -22,5 +22,10 @@ export const _Button = () => (
         </Button>
       </VStack>
     </HStack>
+    <Box bg="brand.100" p="20px">
+      <Button variant="dark">Dark</Button>
+    </Box>
+    <Button variant="brand">Brand</Button>
+    <Button variant="ghost">Ghost</Button>
   </VStack>
 )

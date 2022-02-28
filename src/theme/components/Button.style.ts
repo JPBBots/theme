@@ -5,6 +5,7 @@ export const ButtonStyle: ComponentStyleConfig = {
     rounded: 'sm',
     textStyle: 'label.md',
     boxShadow: 'no-outline',
+    fontWeight: 400,
     transition:
       'color .1s ease, box-shadow .2s ease, background-color .1s ease',
     color: 'lighter.80',
@@ -36,7 +37,32 @@ export const ButtonStyle: ComponentStyleConfig = {
         bg: 'brand.80',
       },
       _active: {
-        bg: 'brand.100',
+        bg: 'brand.50',
+      },
+      _focus: {
+        boxShadow: 'anti-outline',
+      },
+    },
+    dark: {
+      bg: 'bg',
+      _hover: {
+        bg: 'bgo.80',
+      },
+      _active: {
+        bg: 'bgo.50',
+      },
+      _focus: {
+        boxShadow: 'anti-outline',
+      },
+    },
+    brand: {
+      bg: 'brand.100',
+      color: 'black !important',
+      _hover: {
+        bg: 'brand.80',
+      },
+      _active: {
+        bg: 'brand.50',
       },
       _focus: {
         boxShadow: 'anti-outline',
