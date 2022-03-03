@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.6.0 (2022-03-03)
+
+
+### Features
+
+* **views:** add TimeSelector component ([e014596](https://github.com/JPBBots/theme/commit/e014596a1a73419c7810950ba6bfabedfe78a04a))
+
+
+
 ## 3.5.0 (2022-02-28)
 
 
