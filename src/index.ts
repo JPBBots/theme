@@ -10,6 +10,7 @@ export * from '@/views/Help'
 export * from '@/views/MiddleWrap'
 export * from '@/views/Tags'
 export * from '@/views/Tags/Tag'
+export * from '@/views/TimeSelector'
 
 export * from '@/hooks/useScreenWidth'
 
