@@ -30,6 +30,8 @@
         "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/no-empty-function": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "indent": "off",
         "implicit-arrow-linebreak": "error",
         "brace-style": [
             "error",
@@ -39,10 +41,6 @@
         "@typescript-eslint/no-empty-interface": "off",
         "no-mixed-spaces-and-tabs": "error",
         "no-trailing-spaces": "error",
-        "indent": [
-            "error",
-            2
-        ],
         "linebreak-style": [
             "error",
             "windows"
