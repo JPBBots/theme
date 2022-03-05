@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.7.0 (2022-03-05)
+
+
+### Features
+
+* **input:** sm size ([5d2c9c6](https://github.com/JPBBots/theme/commit/5d2c9c6d7d55cb92472e399f519d1f39761eef17))
+
+
+
 ## 3.6.0 (2022-03-03)
 
 
