@@ -57,8 +57,10 @@ export const JPBProvider = ({
     const newColors = { ...colors }
 
     newColors.brand = createColor(brand)
+    newColors.outline = brand.hex()
 
     theme.colors = newColors
+    theme.shadows!.outline = `0 0 0 2px ${newColors.outline}`
   }
 
   return (
