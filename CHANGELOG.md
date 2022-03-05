@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.8.0 (2022-03-05)
+
+
+### Features
+
+* custom brand colors ([8b1eac6](https://github.com/JPBBots/theme/commit/8b1eac63dcee376d791a9a3421cae96076fce630))
+
+
+
 ## 3.7.0 (2022-03-05)
 
 
