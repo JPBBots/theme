@@ -4,7 +4,7 @@ import { Tags } from '.'
 import { useState } from 'react'
 
 export default {
-  title: 'Tags',
+  title: 'Inputs/Tags',
   component: Tags,
 } as Meta
 

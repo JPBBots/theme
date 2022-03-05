@@ -4,7 +4,7 @@ import { TimeSelector } from '.'
 import { useState } from 'react'
 
 export default {
-  title: 'Time Selector',
+  title: 'Inputs/Time Selector',
   component: TimeSelector,
 } as Meta
 
