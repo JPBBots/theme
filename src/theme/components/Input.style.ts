@@ -30,6 +30,18 @@ export const InputStyle: ComponentStyleConfig = {
         rounded: 'md',
       },
     },
+    sm: {
+      field: {
+        fontSize: '15px',
+        textStyle: 'default',
+        p: 2,
+        rounded: 'md',
+      },
+      addon: {
+        p: 2,
+        fontSize: 20,
+      },
+    },
   },
   variants: {
     default: {

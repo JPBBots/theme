@@ -41,6 +41,7 @@ export const SelectStyle: ComponentStyleConfig = {
     sm: {
       field: {
         textStyle: 'default',
+        fontSize: '15px',
         p: 2,
         rounded: 'md',
       },

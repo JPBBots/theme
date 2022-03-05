@@ -9,5 +9,6 @@ export default {
 export const _Input = () => (
   <VStack>
     <Input placeholder="Your name" />
+    <Input size="sm" placeholder="SM input" />
   </VStack>
 )
