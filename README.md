@@ -45,5 +45,7 @@ E.g `darker.20`, `lighter.100`, `brand.5`
 
 *Brand is a Censor Bot color that can be used, but is generally just an accent color`
 
+You can change the brand color by passing a `"#hex"` into `brandColor` of `JPBProvider`
+
 # Examples
 

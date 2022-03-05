@@ -8,11 +8,14 @@ import {
   GlobalStyle,
   localStorageManager,
 } from '@chakra-ui/react'
+import { colors, createColor } from '@/theme/colors'
+import { hex } from 'chroma-js'
 
 export interface JPBProviderProps extends PropsWithChildren<unknown> {
   cookies?: string | unknown
   useCssReset?: boolean
   useGlobalStyle?: boolean
+  brandColor?: string
 }
 
 /** For use in Next.JS in the _document.js file. */
@@ -41,12 +44,22 @@ export const JPBProvider = ({
   cookies,
   useCssReset = true,
   useGlobalStyle = true,
+  brandColor,
   children,
 }: JPBProviderProps) => {
   const colorModeManager =
     typeof cookies === 'string'
       ? cookieStorageManager(cookies)
       : localStorageManager
+
+  if (brandColor) {
+    const brand = hex(brandColor)
+    const newColors = { ...colors }
+
+    newColors.brand = createColor(brand)
+
+    theme.colors = newColors
+  }
 
   return (
     <ChakraProvider theme={theme} colorModeManager={colorModeManager}>

@@ -1,9 +1,12 @@
 import { hex, Color } from 'chroma-js'
 
-const brand = hex('#ea5454')
+// @ts-expect-error global brand support
+const globalBrand = global.brand as string
+
+const brand = hex(globalBrand ?? '#ea5454')
 const bg = hex('#161e2e')
 
-const createColor = (color: Color) => {
+export const createColor = (color: Color) => {
   return {
     5: color.alpha(0.05).hex(),
     10: color.alpha(0.1).hex(),
