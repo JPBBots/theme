@@ -11,6 +11,7 @@ export * from '@/views/MiddleWrap'
 export * from '@/views/Tags'
 export * from '@/views/Tags/Tag'
 export * from '@/views/TimeSelector'
+export * from '@/views/Loading'
 
 export * from '@/hooks/useScreenWidth'
 
