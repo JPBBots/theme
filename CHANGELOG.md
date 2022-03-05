@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.8.1 (2022-03-05)
+
+
+### Bug Fixes
+
+* add outline color update ([a663f07](https://github.com/JPBBots/theme/commit/a663f0782f72ab5401d6be86103e2ca02fcab410))
+
+
+
 ## 3.8.0 (2022-03-05)
 
 
