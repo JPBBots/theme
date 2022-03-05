@@ -1,5 +1,5 @@
 import { Input } from '@chakra-ui/input'
-import { Flex } from '@chakra-ui/layout'
+import { Flex, FlexProps } from '@chakra-ui/layout'
 import {
   Menu,
   MenuButton,
@@ -31,14 +31,20 @@ export interface TagsSettings {
   channel?: boolean
 }
 
-export interface TagsProps {
+export interface TagsProps extends Omit<FlexProps, 'onChange'> {
   value: string[]
   settings: TagsSettings
   placeholder: string
   onChange?: (value: string[]) => void
 }
 
-export const Tags = ({ value, settings, onChange, placeholder }: TagsProps) => {
+export const Tags = ({
+  value,
+  settings,
+  onChange,
+  placeholder,
+  ...flexProps
+}: TagsProps) => {
   const { whitelist } = settings
   const [focusing, setFocusing] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -86,6 +92,7 @@ export const Tags = ({ value, settings, onChange, placeholder }: TagsProps) => {
       p="10px"
       px={value.length ? undefined : '0px'}
       onClick={() => inputRef.current?.focus()}
+      {...flexProps}
     >
       <Flex wrap="wrap" gridGap={2} bg="transparent" alignContent="center">
         {value.map((tagValue) => {
