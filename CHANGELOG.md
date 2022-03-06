@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.10.0 (2022-03-06)
+
+
+### Features
+
+* **Fakearea:** add custom style props ([66f43da](https://github.com/JPBBots/theme/commit/66f43da301f5e38f9a49d9e31911fd1e913bd641))
+
+
+
 ### 3.9.2 (2022-03-06)
 
 **Note:** Version bump only for package @jpbbots/theme
