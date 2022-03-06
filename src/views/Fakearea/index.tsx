@@ -28,6 +28,7 @@ export function Fakearea({ value, onChange }: FakeareaProps) {
       onMouseEnter={() => setOpen(true)}
       textStyle="default"
       whiteSpace="pre-line"
+      textAlign="left"
     >
       {value}
     </Box>
