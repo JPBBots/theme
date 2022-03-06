@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 3.9.0 (2022-03-06)
+
+
+### Features
+
+* **Tags:** refocus on click ([45a8e86](https://github.com/JPBBots/theme/commit/45a8e86ad3631a6c37dd3c505e1f5f01c14591e4))
+
+
+
 ### 3.8.2 (2022-03-05)
 
 **Note:** Version bump only for package @jpbbots/theme
