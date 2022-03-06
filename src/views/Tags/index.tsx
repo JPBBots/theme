@@ -14,6 +14,7 @@ import { Tag } from './Tag'
 
 import { useRef, useState } from 'react'
 import { wLT } from '../../hooks/useScreenWidth'
+import { RefObject } from 'react'
 
 export interface ITag {
   id?: string
@@ -47,7 +48,7 @@ export const Tags = ({
 }: TagsProps) => {
   const { whitelist } = settings
   const [focusing, setFocusing] = useState(false)
-  const inputRef = useRef<HTMLInputElement>(null)
+  const inputRef = useRef<HTMLElement>(null)
 
   const inputFlip = wLT(390)
 
@@ -91,7 +92,7 @@ export const Tags = ({
       borderColor={focusing ? 'brand.100' : 'transparent'}
       p="10px"
       px={value.length ? undefined : '0px'}
-      onClick={() => inputRef.current?.focus()}
+      onClick={() => inputRef.current?.[whitelist ? 'click' : 'focus']()}
       {...flexProps}
     >
       <Flex wrap="wrap" gridGap={2} bg="transparent" alignContent="center">
@@ -128,6 +129,7 @@ export const Tags = ({
           >
             <MenuButton
               px="16px"
+              ref={inputRef as RefObject<HTMLButtonElement>}
               disabled={!!settings.maxTags && value.length >= settings.maxTags}
             >
               <HStack spacing="8px">
@@ -209,7 +211,7 @@ export const Tags = ({
             onChange={({ target }) => {
               if (target.value === ' ') target.value = ''
             }}
-            ref={inputRef}
+            ref={inputRef as RefObject<HTMLInputElement>}
             maxW={inputFlip ? '50vw' : '80vw'}
           />
         )}
