@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TextareaStyle } from '@/theme/components/Textarea.style'
-import { Box, Textarea, Text } from '@chakra-ui/react'
+import { Box, Textarea } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import TextareaResizer from 'react-textarea-autosize'
 
@@ -24,11 +25,11 @@ export function Fakearea({ value, onChange }: FakeareaProps) {
       p={4}
       userSelect="none"
       rounded="md"
-      // cursor="pointer"
-      // onClick={() => setOpen(true)}
       onMouseEnter={() => setOpen(true)}
+      textStyle="default"
+      whiteSpace="pre-line"
     >
-      <Text>{value}</Text>
+      {value}
     </Box>
   ) : (
     <Textarea
