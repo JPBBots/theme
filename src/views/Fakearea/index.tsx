@@ -1,15 +1,15 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { TextareaStyle } from '@/theme/components/Textarea.style'
-import { Box, Textarea } from '@chakra-ui/react'
+import { Box, BoxProps, Textarea } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 import TextareaResizer from 'react-textarea-autosize'
 
-export interface FakeareaProps {
+export interface FakeareaProps extends Omit<BoxProps, 'onChange'> {
   value: string
   onChange: (val: string) => void
 }
 
-export function Fakearea({ value, onChange }: FakeareaProps) {
+export function Fakearea({ value, onChange, ...props }: FakeareaProps) {
   const [open, setOpen] = useState(false)
   const [focused, setFocused] = useState(false)
 
@@ -29,6 +29,7 @@ export function Fakearea({ value, onChange }: FakeareaProps) {
       textStyle="default"
       whiteSpace="pre-line"
       textAlign="left"
+      {...props}
     >
       {value}
     </Box>
