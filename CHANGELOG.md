@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.9.1 (2022-03-06)
+
+
+### Bug Fixes
+
+* **Fakearea:** multiline support ([83dd434](https://github.com/JPBBots/theme/commit/83dd43478b49e66afbf8768a415c4496bc8ef181))
+
+
+
 ## 3.9.0 (2022-03-06)
 
 
