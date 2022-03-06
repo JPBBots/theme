@@ -13,6 +13,7 @@ export * from '@/views/Tags/Tag'
 export * from '@/views/TimeSelector'
 export * from '@/views/SelectMenu'
 export * from '@/views/Loading'
+export * from '@/views/Fakearea'
 
 export * from '@/hooks/useScreenWidth'
 
