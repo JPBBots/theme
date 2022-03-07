@@ -44,7 +44,7 @@ export function Fakearea({ value, onChange, ...props }: FakeareaProps) {
       onFocus={() => {
         setFocused(true)
       }}
-      onMouseLeave={() => {
+      onMouseOut={() => {
         if (focused) return
 
         setOpen(false)

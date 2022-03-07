@@ -2,7 +2,7 @@ import { Center, Spinner } from '@chakra-ui/react'
 
 export function Loading() {
   return (
-    <Center>
+    <Center w="full">
       <Spinner />
     </Center>
   )
