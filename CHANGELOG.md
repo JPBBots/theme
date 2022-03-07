@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 3.10.1 (2022-03-07)
+
+
+### Bug Fixes
+
+* make loading full width ([b10d8e3](https://github.com/JPBBots/theme/commit/b10d8e306a244897b99baba1e532da69ecbb3e71))
+
+
+
 ## 3.10.0 (2022-03-06)
 
 
