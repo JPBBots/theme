@@ -52,7 +52,7 @@ export function TimeSelector(opts: TimeSelectorOptions) {
 
   return (
     <Wrap gridGap={4}>
-      <VStack s={0}>
+      <VStack spacing={0}>
         <Tooltip
           isOpen={editing}
           label="Time in seconds"
