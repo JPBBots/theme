@@ -18,6 +18,7 @@ import { SliderStyle as Slider } from './components/Slider.style'
 import { AlertStyle as Alert } from './components/Alert.style'
 import { DividerStyle as Divider } from './components/Divider.style'
 import { SpinnerStyle as Spinner } from './components/Spinner.style'
+import { ModalStyle as Modal } from './components/Modal.style'
 
 export const DEFAULT_COLOR_MODE = 'dark'
 
@@ -120,6 +121,7 @@ const theme: ThemeOverride<ChakraTheme> = {
     Slider,
     Alert,
     Spinner,
+    Modal,
   },
 }
 

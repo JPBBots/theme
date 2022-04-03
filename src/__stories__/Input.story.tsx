@@ -1,5 +1,6 @@
 import { Meta } from '@storybook/react'
 import { VStack, Input } from '@chakra-ui/react'
+import React from 'react'
 
 export default {
   title: 'Inputs/Input',
