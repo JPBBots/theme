@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.0.0 (2023-01-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** react update
+
+### Features
+
+* **deps:** react update ([84dc9fb](https://github.com/JPBBots/theme/commit/84dc9fb0410d07010550354e14f94caafd917fe0))
+
+
+
 ### 3.10.2 (2022-04-03)
 
 **Note:** Version bump only for package @jpbbots/theme
