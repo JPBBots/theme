@@ -16,6 +16,7 @@ export const Help = ({ children }: HelpProps) => {
       bg="black"
       opacity={100}
       p={2}
+      justifySelf="center"
       color="white"
       borderRadius="md"
       label={`${children}`}
@@ -26,7 +27,7 @@ export const Help = ({ children }: HelpProps) => {
         justifyItems="center"
         userSelect="none"
       >
-        <Icon as={FaRegQuestionCircle} mb="4px" />
+        <Icon as={FaRegQuestionCircle} mb="-2px" />
       </Flex>
     </ChakraTooltip>
   )

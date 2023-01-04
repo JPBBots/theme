@@ -1,10 +1,7 @@
-import theme from '../src/theme/index.ts'
-import { CSSReset, ChakraProvider } from '@chakra-ui/react'
-import { JPBProvider } from "../src/utils/JPBProvider/JPBProvider";
-
+import { JPBProvider } from '../src/utils/JPBProvider/JPBProvider'
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
       color: /(background|color)$/i,
@@ -13,14 +10,10 @@ export const parameters = {
   },
 }
 
-const withChakra = (Story) =>
-  (
-    <JPBProvider>
-      <Story />
-    </JPBProvider>
-  )
+const withChakra = (Story) => (
+  <JPBProvider>
+    <Story />
+  </JPBProvider>
+)
 
-
-export const decorators = [
-  withChakra
-]
+export const decorators = [withChakra]

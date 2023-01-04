@@ -32,5 +32,5 @@ export default create({
   inputBorderRadius: 5,
 
   brandTitle: 'JPBBots Storybook',
-  brandUrl: 'https://jpbbots.org/'
-});
+  brandUrl: 'https://jpbbots.org/',
+})

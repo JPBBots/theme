@@ -3,7 +3,6 @@ import type { PropsWithChildren } from 'react'
 import {
   ChakraProvider,
   ColorModeScript,
-  cookieStorageManager,
   CSSReset,
   GlobalStyle,
   localStorageManager,
@@ -41,16 +40,12 @@ export const NextFontHead = () => (
 
 /** Wrapper to allow usage of the components within this library */
 export const JPBProvider = ({
-  cookies,
   useCssReset = true,
   useGlobalStyle = true,
   brandColor,
   children,
 }: JPBProviderProps) => {
-  const colorModeManager =
-    typeof cookies === 'string'
-      ? cookieStorageManager(cookies)
-      : localStorageManager
+  const colorModeManager = localStorageManager
 
   if (brandColor) {
     const brand = hex(brandColor)
