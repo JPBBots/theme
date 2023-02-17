@@ -71,7 +71,7 @@
     "@storybook/testing-library": "0.0.13",
     "@storybook/theming": "^7.0.0-beta.19",
     "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
+    "@testing-library/react": "^14.0.0",
     "@types/chroma-js": "^2.1.3",
     "@types/humanize-duration": "^3.27.1",
     "@types/jest": "^26.0.24",
