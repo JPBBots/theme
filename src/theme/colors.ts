@@ -1,30 +1,30 @@
-import { hex, Color } from 'chroma-js'
+import { getWithAlpha } from '@/utils/chroma'
 
 // @ts-expect-error global brand support
 const globalBrand = global.brand as string
 
-const brand = hex(globalBrand ?? '#ea5454')
-const bg = hex('#161e2e')
+const brand = globalBrand ?? '#ea5454'
+const bg = '#161e2e'
 
-export const createColor = (color: Color) => {
+export const createColor = (color: string) => {
   return {
-    5: color.alpha(0.05).hex(),
-    10: color.alpha(0.1).hex(),
-    20: color.alpha(0.2).hex(),
-    40: color.alpha(0.4).hex(),
-    50: color.alpha(0.5).hex(),
-    60: color.alpha(0.6).hex(),
-    80: color.alpha(0.8).hex(),
-    90: color.alpha(0.9).hex(),
-    100: color.alpha(1).hex(),
+    5: getWithAlpha(color, 0.05),
+    10: getWithAlpha(color, 0.1),
+    20: getWithAlpha(color, 0.2),
+    40: getWithAlpha(color, 0.4),
+    50: getWithAlpha(color, 0.5),
+    60: getWithAlpha(color, 0.6),
+    80: getWithAlpha(color, 0.8),
+    90: getWithAlpha(color, 0.9),
+    100: getWithAlpha(color, 1),
   }
 }
 
 export const colors = {
-  bg: bg.hex(),
+  bg: bg,
   bgo: createColor(bg),
-  outline: brand.hex(),
-  lighter: createColor(hex('#ffffff')),
-  darker: createColor(hex('#000000')),
+  outline: brand,
+  lighter: createColor('#ffffff'),
+  darker: createColor('#000000'),
   brand: createColor(brand),
 }

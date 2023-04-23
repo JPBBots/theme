@@ -8,8 +8,6 @@ import { GlobalStyle } from '@chakra-ui/system'
 import { colors, createColor } from '@/theme/colors'
 import theme, { DEFAULT_COLOR_MODE } from '@/theme'
 
-import { hex } from 'chroma-js'
-
 export interface JPBProviderProps extends PropsWithChildren<unknown> {
   cookies?: string | unknown
   useCssReset?: boolean
@@ -48,11 +46,10 @@ export const JPBProvider = ({
   const colorModeManager = localStorageManager
 
   if (brandColor) {
-    const brand = hex(brandColor)
     const newColors = { ...colors }
 
-    newColors.brand = createColor(brand)
-    newColors.outline = brand.hex()
+    newColors.brand = createColor(brandColor)
+    newColors.outline = brandColor
 
     theme.colors = newColors
     theme.shadows!.outline = `0 0 0 2px ${newColors.outline}`

@@ -7,7 +7,7 @@ import { Icon } from '@chakra-ui/icon'
 import { Tooltip } from '@chakra-ui/tooltip'
 import { FaChevronDown } from 'react-icons/fa'
 
-import humanize from 'humanize-duration'
+import humanize from '../../utils/humanize-duration'
 
 const TIME_CONV: Record<number, string> = {
   2419000000: '1 month',
