@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 4.1.0 (2023-04-23)
+
+
+### Features
+
+* fix storybook & update tooltip ([266010e](https://github.com/JPBBots/theme/commit/266010ee4103e73a39646f1831d106a36b6774f6))
+
+
+
 ## 4.0.0 (2023-01-04)
 
 
