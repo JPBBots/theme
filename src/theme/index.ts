@@ -1,4 +1,5 @@
-import { ChakraTheme, ThemeOverride } from '@chakra-ui/react'
+import { ChakraTheme } from '@chakra-ui/theme'
+import { ThemeOverride } from '@chakra-ui/theme-utils'
 
 // These imports need to be local for theme type generation
 import { colors } from './colors'

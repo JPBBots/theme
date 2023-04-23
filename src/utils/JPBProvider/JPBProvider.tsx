@@ -1,13 +1,13 @@
-import theme, { DEFAULT_COLOR_MODE } from '@/theme'
 import type { PropsWithChildren } from 'react'
-import {
-  ChakraProvider,
-  ColorModeScript,
-  CSSReset,
-  GlobalStyle,
-  localStorageManager,
-} from '@chakra-ui/react'
+
+import { ChakraProvider } from '@chakra-ui/provider'
+import { ColorModeScript, localStorageManager } from '@chakra-ui/color-mode'
+import { CSSReset } from '@chakra-ui/css-reset'
+import { GlobalStyle } from '@chakra-ui/system'
+
 import { colors, createColor } from '@/theme/colors'
+import theme, { DEFAULT_COLOR_MODE } from '@/theme'
+
 import { hex } from 'chroma-js'
 
 export interface JPBProviderProps extends PropsWithChildren<unknown> {

@@ -1,7 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { TextareaStyle } from '@/theme/components/Textarea.style'
-import { Box, BoxProps, Textarea } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
+
+import { TextareaStyle } from '@/theme/components/Textarea.style'
+
+import { Box, BoxProps } from '@chakra-ui/layout'
+import { Textarea } from '@chakra-ui/textarea'
+
 import TextareaResizer from 'react-textarea-autosize'
 
 export interface FakeareaProps extends Omit<BoxProps, 'onChange'> {

@@ -1,20 +1,14 @@
-import { Input } from '@chakra-ui/input'
-import { Flex, FlexProps } from '@chakra-ui/layout'
-import {
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuList,
-  Icon,
-  HStack,
-  Text,
-} from '@chakra-ui/react'
-import { FaPlus } from 'react-icons/fa'
+import { useRef, useState, RefObject } from 'react'
+
+import { wLT } from '../../hooks/useScreenWidth'
+
 import { Tag } from './Tag'
 
-import { useRef, useState } from 'react'
-import { wLT } from '../../hooks/useScreenWidth'
-import { RefObject } from 'react'
+import { Input } from '@chakra-ui/input'
+import { Flex, FlexProps, HStack, Text } from '@chakra-ui/layout'
+import { Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/menu'
+import { Icon } from '@chakra-ui/icon'
+import { FaPlus } from 'react-icons/fa'
 
 export interface ITag {
   id?: string

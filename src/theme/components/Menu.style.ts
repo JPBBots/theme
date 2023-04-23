@@ -1,4 +1,4 @@
-import { ComponentStyleConfig } from '@chakra-ui/react'
+import type { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const MenuStyle: ComponentStyleConfig = {
   parts: ['item', 'command', 'list', 'button', 'groupTitle', 'divider'],

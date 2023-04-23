@@ -1,4 +1,4 @@
-import { ComponentStyleConfig } from '@chakra-ui/react'
+import type { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const SliderStyle: ComponentStyleConfig = {
   parts: ['thumb', 'track', 'container', 'filledTrack'],

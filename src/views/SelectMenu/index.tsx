@@ -1,14 +1,8 @@
-import {
-  HStack,
-  Icon,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuList,
-  StackProps,
-  Text,
-} from '@chakra-ui/react'
 import { useState } from 'react'
+
+import { HStack, StackProps, Text } from '@chakra-ui/layout'
+import { Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/menu'
+import { Icon } from '@chakra-ui/icon'
 import { FaAngleDown } from 'react-icons/fa'
 
 interface SelectMenuProps extends Omit<StackProps, 'onChange'> {

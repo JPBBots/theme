@@ -1,8 +1,6 @@
 import { Tooltip as ChakraTooltip } from '@chakra-ui/tooltip'
-
 import { Flex } from '@chakra-ui/layout'
-import { Icon } from '@chakra-ui/react'
-
+import { Icon } from '@chakra-ui/icon'
 import { FaRegQuestionCircle } from 'react-icons/fa'
 
 export interface HelpProps {

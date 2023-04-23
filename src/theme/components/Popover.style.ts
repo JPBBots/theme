@@ -1,4 +1,4 @@
-import { ComponentStyleConfig } from '@chakra-ui/react'
+import type { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const PopoverStyle: ComponentStyleConfig = {
   parts: ['popper', 'content', 'header', 'body', 'footer', 'arrow'],

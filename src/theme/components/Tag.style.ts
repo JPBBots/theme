@@ -1,5 +1,5 @@
 import { textStyles } from '../textStyles'
-import { ComponentStyleConfig } from '@chakra-ui/react'
+import type { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const TagStyle: ComponentStyleConfig = {
   parts: ['container', 'label', 'closeButton'],

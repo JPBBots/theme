@@ -1,4 +1,4 @@
-import { FlexProps, Flex } from '@chakra-ui/react'
+import { FlexProps, Flex } from '@chakra-ui/layout'
 
 export interface MiddleWrapProps extends FlexProps {
   spacing: FlexProps['gridGap']

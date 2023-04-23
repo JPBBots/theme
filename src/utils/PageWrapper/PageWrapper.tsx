@@ -1,5 +1,5 @@
 import type { PropsWithChildren, ReactNode } from 'react'
-import { VStack } from '@chakra-ui/react'
+import { VStack } from '@chakra-ui/layout'
 
 export interface PageWrapperProps extends PropsWithChildren<unknown> {
   header?: ReactNode
