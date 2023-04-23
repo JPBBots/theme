@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 4.1.4 (2023-04-23)
+
+
+### Bug Fixes
+
+* add humanize duration types ([7b08e6a](https://github.com/JPBBots/theme/commit/7b08e6ae76b7e98f2c7aaf2b235a57d0974e7c0a))
+
+
+
 ### 4.1.3 (2023-04-23)
 
 **Note:** Version bump only for package @jpbbots/theme
