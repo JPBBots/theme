@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### 4.1.2 (2023-04-23)
+
+
+### Bug Fixes
+
+* revert tooltip change ([df3e2ce](https://github.com/JPBBots/theme/commit/df3e2cec2dd98e534915814c49db253bedd47a0d))
+
+
+
 ### 4.1.1 (2023-04-23)
 
 **Note:** Version bump only for package @jpbbots/theme
