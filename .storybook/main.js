@@ -1,7 +1,6 @@
 const path = require('path')
 const toPath = (_path) => path.join(process.cwd(), _path)
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
-
 module.exports = {
   refs: {
     '@chakra-ui/react': {
@@ -45,7 +44,6 @@ module.exports = {
         configFile: path.resolve(__dirname, '../tsconfig.json'),
       }),
     ]
-
     return {
       ...config,
       resolve: {
@@ -57,5 +55,8 @@ module.exports = {
         },
       },
     }
+  },
+  docs: {
+    autodocs: false,
   },
 }

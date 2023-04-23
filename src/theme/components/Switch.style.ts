@@ -1,6 +1,7 @@
 import { ComponentStyleConfig } from '@chakra-ui/react'
 
 export const SwitchStyle: ComponentStyleConfig = {
+  parts: ['container', 'track', 'thumb'],
   baseStyle: {
     container: {
       display: 'inline-flex',

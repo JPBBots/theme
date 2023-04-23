@@ -20,6 +20,7 @@ export const Help = ({ children }: HelpProps) => {
       color="white"
       borderRadius="md"
       label={`${children}`}
+      as="div"
     >
       <Flex
         display="inline-block"
